@@ -1,0 +1,106 @@
+:root {
+    --color1: #743ad5;
+    --color2: #d53a9d;
+    --color3: #45024b;
+    --textColor: beige;
+}
+
+body {
+    color: white;
+    background: repeating-linear-gradient(0deg,
+            #222,
+            #222 3px,
+            #333 3px,
+            #333 6px);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+textarea {
+    padding: 10px;
+    background-color: #000000c7;
+    color: var(--textColor);
+    display: flex;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    border: 15px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, var(--color1), var(--color2));
+    outline: none;
+}
+
+.mainContainer label {
+    background-color: var(--color3);
+    font-size: 12px;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 15px solid;
+    border-image-slice: 1;
+    border-width: 3px 3px 0px;
+    border-image-source: linear-gradient(to left, var(--color1), var(--color2));
+}
+
+.inputContainer {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.resultsContainer {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.mainContainer {
+    box-sizing: border-box;
+    padding: 18px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid;
+    border-image-slice: 1;
+    border-width: 1.5px;
+    border-image-source: linear-gradient(to left, var(--color1), var(--color2));
+    background-color: #000000c7;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 4px var(--color2);
+    transition: all;
+    transition-duration: 0.1s;
+}
+
+path,
+line {
+    fill: var(--color2);
+    stroke: var(--color2);
+}
