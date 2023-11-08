@@ -1,5 +1,6 @@
 # XpathHunt
-XpathHunt a web extensión for find Xpath expressions in Mozilla browser
+XpathHunt a web extensión for find Xpath expressions in Mozilla browser.
+You can try the extensión in the MDN Store: [XpathHunt](https://addons.mozilla.org/es/firefox/addon/xpathhunt/)
 ## How to use Xpath-Hunt:
 Upon loading the extension, an iframe will appear at the top with two fields. In the Xpath-Console, you can enter your XPath expression, and the results will automatically be highlighted on the web page. Additionally, you can visualize the text found in the Xpath-Output.
 
