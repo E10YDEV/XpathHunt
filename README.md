@@ -14,3 +14,10 @@ To customize both the extension's appearance and the visual highlighting system,
 * Custom Highlighted CSS: You can enter CSS properties to customize the results of your search.
 
 ![Settings](https://github.com/E10YDEV/XpathHunt/assets/149316141/c281fe68-626d-4391-87a8-1d7b5507edd7)
+
+![Main View](https://github.com/E10YDEV/XpathHunt/assets/149316141/ef8d436a-39b0-45ae-b889-aa432633bbab)
+
+
+
+## Contributing:
+Feel free to contribute to this project. If you discover a bug or have suggestions for improvement, kindly open an issue or submit a pull request. Your input is appreciated.
